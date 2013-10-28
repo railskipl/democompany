@@ -1,8 +1,14 @@
 Rails3BootstrapDeviseCancan::Application.routes.draw do
-  authenticated :user do
-    root :to => 'home#index'
-  end
+
+  devise_for :admins
+
+ 
+
+    namespace :admin do 
+       
+      match '/dashboard' => "dashboard#index"
+      resources :pages
+     end
   root :to => "home#index"
-  devise_for :users
-  resources :users
+  
 end
