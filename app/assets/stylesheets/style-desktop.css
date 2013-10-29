@@ -152,7 +152,7 @@
 	
 	#footer-wrapper
 	{
-		padding:0 0 0 0; background:url(/assets/admin/black_alfa_70.png);
+		padding:0 0 0 0; background:url(/assets/admin/black_alfa_70.png); position:fixed; bottom:0; left:0; right:0
 	}
 
 /*********************************************************************************/
@@ -160,7 +160,7 @@
 /*********************************************************************************/
 
 	#logo
-	{ margin:10px 0
+	{ margin:5px 0
 	}
 
 		#logo h1
@@ -278,15 +278,7 @@
 
 		#content h3
 		{
-<<<<<<< HEAD
 			margin-top: 2.25em;
-=======
-<<<<<<< HEAD
-			margin-top: 3.25em;
-=======
-			margin-top: 2.25em;
->>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
->>>>>>> 02a2d8602a9ea41f6acc5ba1dc06a20ae0a12c88
 		}
 
 /*********************************************************************************/
@@ -304,17 +296,7 @@
 
 	#copyright
 	{
-<<<<<<< HEAD
 		padding:0; font-size:12px;
-=======
-<<<<<<< HEAD
-		padding:0; font-size:14px;
-		padding-top: 9px;
-		padding-bottom: 9px;
-=======
-		padding:0; font-size:12px;
->>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
->>>>>>> 02a2d8602a9ea41f6acc5ba1dc06a20ae0a12c88
 		text-align: center; border-top:1px solid #333333
 	}
 	
@@ -346,10 +328,10 @@
     background: none repeat scroll 0 0 transparent;
 }
 .nav-primary li a {
-    color: #999999;
+    color: #ccc;
     display: block;
     font-family: myriad-pro-n4,myriad-pro,Myriad Pro,Arial,Helvetica,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     line-height: normal;
     padding: 5px 20px;
@@ -369,5 +351,36 @@
 
 .search_wrap{ width:auto; float:right; position:absolute; right:0; top:40px}
 
-.stf{ border:1px solid #333333; padding:7px 10px 6px 10px; background:#fff; color:#333; width:200px}
-.sbtn{ width:38px; height:31px; cursor:pointer; background:url(/assets/admin/search.jpg) no-repeat; border:0}
+.stf{ border:1px solid #333333; padding:0 10px; height:31px; line-height:18px; background:#fff; color:#333; width:200px; float:left}
+.sbtn{ width:38px; height:31px; cursor:pointer; background:url(/assets/admin/search.jpg) no-repeat; border:0; border:1px solid #333333; float:left}
+
+
+
+#accordion { width:100%; margin:10px 0; padding:10px; background:url(/assets/admin/black_alfa_70.png) }
+#accordion p span { cursor:pointer; color:#CCCCCC; display:block }
+
+.news-heading{
+	color:#fff;
+	font: bold 12px Arial;
+	margin-bottom:10px;
+	background:#2092c8;
+	padding:5px 10px;
+	 -moz-border-radius: 5px;
+	}
+
+.news-title{
+	color:#000;
+	font: bold 12px Arial;
+	margin:0 0 0px 0;
+	padding:10px 10px;
+	border-top:1px solid #333333; border-bottom:1px solid #000;
+	}
+	
+	
+	.news-title:hover{ background:#000 url(/assets/admin/plus.png) no-repeat 660px 14px
+	}
+.news_text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff;
+	line-height:18px; border:1px solid #000; padding:10px; border-top:none; overflow:hidden; text-align:justify; background:#333
+	}
+	
+	.testimonial_img{ float:left; margin:0 10px 10px 0; width:75px; height:75px; border:1px solid #d7e7f0}	
