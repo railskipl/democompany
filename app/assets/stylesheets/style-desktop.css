@@ -278,7 +278,11 @@
 
 		#content h3
 		{
+<<<<<<< HEAD
 			margin-top: 3.25em;
+=======
+			margin-top: 2.25em;
+>>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
 		}
 
 /*********************************************************************************/
@@ -296,9 +300,13 @@
 
 	#copyright
 	{
+<<<<<<< HEAD
 		padding:0; font-size:14px;
 		padding-top: 9px;
 		padding-bottom: 9px;
+=======
+		padding:0; font-size:12px;
+>>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
 		text-align: center; border-top:1px solid #333333
 	}
 	

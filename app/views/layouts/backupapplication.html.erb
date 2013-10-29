@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 <!DOCTYPE HTML>
@@ -127,3 +128,45 @@ Kunal Infotech Pvt Ltd - Ruby on Rails India © 2012-2013
 			
 			
 			
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "Kunal Infotech Pvt Ltd" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Company site" %>">
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <%= yield(:head) %>
+  </head>
+  <body class="<%= controller_name %> <%= action_name %>">
+    <div class="navbar navbar-fixed-top">
+      <nav class="navbar-inner">
+        <div class="container">
+          <%= render 'layouts/navigation' %>
+        </div>
+      </nav>
+    </div>
+    <div id="main" role="main">
+      <div class="container">
+        <div class="content">
+           <div class="row">
+            <div class="span12">
+            	<%= render 'shared/header.html.erb'%>
+              <%= render 'layouts/messages' %>
+              <%= yield %>
+              <%= render 'shared/footer.html.erb'%>
+            </div>
+          </div>
+          <footer>
+          </footer>
+        </div>
+      </div> <!--! end of .container -->
+    </div> <!--! end of #main -->
+    
+    
+    
+  </body>
+</html>
+>>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
