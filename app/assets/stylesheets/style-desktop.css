@@ -278,7 +278,15 @@
 
 		#content h3
 		{
+<<<<<<< HEAD
 			margin-top: 2.25em;
+=======
+<<<<<<< HEAD
+			margin-top: 3.25em;
+=======
+			margin-top: 2.25em;
+>>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
+>>>>>>> 02a2d8602a9ea41f6acc5ba1dc06a20ae0a12c88
 		}
 
 /*********************************************************************************/
@@ -296,7 +304,17 @@
 
 	#copyright
 	{
+<<<<<<< HEAD
 		padding:0; font-size:12px;
+=======
+<<<<<<< HEAD
+		padding:0; font-size:14px;
+		padding-top: 9px;
+		padding-bottom: 9px;
+=======
+		padding:0; font-size:12px;
+>>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
+>>>>>>> 02a2d8602a9ea41f6acc5ba1dc06a20ae0a12c88
 		text-align: center; border-top:1px solid #333333
 	}
 	
