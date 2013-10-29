@@ -12,13 +12,13 @@ class Admin::PagesController < ApplicationController
   end
 
   def edit 
-    page = Page.find(params[:id]) 
+    @page = Page.find(params[:id]) 
   end
 
   def create 
     @page = Page.new(params[:page])
     if @page.save 
-     redirect_to page_path, notice: "The page has been successfully created."
+     redirect_to admin_pages_path, notice: "The page has been successfully created."
     end
   end
 
@@ -39,7 +39,7 @@ class Admin::PagesController < ApplicationController
     @page = Page.find(params[:id])
 
     @page.destroy
-    redirect_to pages_path, notice: "The page has been successfully deleted."
+    redirect_to admin_pages_path, notice: "The page has been successfully deleted."
   end
 
 

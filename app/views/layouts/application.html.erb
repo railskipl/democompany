@@ -1,35 +1,120 @@
-<!DOCTYPE html>
+
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= content_for?(:title) ? yield(:title) : "Kunal Infotech Pvt Ltd" %></title>
-    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Company site" %>">
-    <%= stylesheet_link_tag "application", :media => "all" %>
+        <head>
+                <title><%= content_for?(:title) ? yield(:title) : "Kunal Infotech Pvt Ltd" %></title>
+                <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+                <meta name="description" content="" />
+                <meta name="keywords" content="" />
+                
+
+
+                
+                
+                <%= stylesheet_link_tag "style.css", "style-desktop" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
-  </head>
-  <body class="<%= controller_name %> <%= action_name %>">
-    <div class="navbar navbar-fixed-top">
-      <nav class="navbar-inner">
-        <div class="container">
-          <%= render 'layouts/navigation' %>
-        </div>
-      </nav>
-    </div>
-    <div id="main" role="main">
-      <div class="container">
-        <div class="content">
-           <div class="row">
-            <div class="span12">
-              <%= render 'layouts/messages' %>
-              <%= yield %>
-            </div>
-          </div>
-          <footer>
-          </footer>
-        </div>
-      </div> <!--! end of .container -->
-    </div> <!--! end of #main -->
-  </body>
+
+<script>
+$.noConflict();
+// Code that uses other library's $ can follow here.
+</script>
+
+
+        </head>
+        <body class="homepage">
+
+                <!-- Header Wrapper -->
+                        <div id="header-wrapper">
+                                <div class="container">
+                                        <div class="row">
+                                                <div class="12u">
+                                                
+                                                        <!-- Header -->
+                                                                <header id="header">
+                                                                
+                                                                        <!-- Logo -->
+                                                                                <div id="logo">
+                                                                                        <h1><a href="#" id="logo"><img src="/assets/admin/logo-main.png" alt="" border="0"></a></h1>
+                                                                                        <span><img src="/assets/admin/logo-tagline.png" alt=""></span>
+                                                                                </div>
+                                                                        
+                                                                        <!-- Nav -->
+                                                                                <nav id="nav">
+                                                                                        <ul>
+                                                                                                <li><a href="index.html">About Us</a></li>
+                                                                                                <li><a href="left-sidebar.html">Careers</a></li>
+                                                                                                <li><a href="right-sidebar.html"> Blogs </a></li>
+                                                                                                <li><a href="no-sidebar.html">Press Release</a></li>
+                                                                                                <li><a href="no-sidebar.html">Contact Us</a></li>
+                                                                                        </ul>
+                                                                                </nav>
+                                                                                
+                                                                                <div class="search_wrap"><input name="" type="text" class="stf"><input name="" type="button" class="sbtn"></div>
+                                                                
+                                                                </header>
+
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        
+                        
+                        
+                        <%= yield %>
+                        
+                        
+                        <!-- Footer Wrapper -->
+                        <div id="footer-wrapper">
+                                <footer id="footer" class="container">
+                                        <div class="row" style="border-bottom:1px solid #000000">
+                                                <div class="9u">
+                                                
+                                                        <!-- Links -->
+                                                                <section class="widget-links">
+                                                                        
+                                                                        <ul class="style2">
+                                                                                <li><a href="#">Services</a></li>
+                                                                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                                                                <li><a href="#">Privacy Policy</a></li>
+                                                                                <li><a href="#"> Site Map</a></li>
+                                                                                
+                                                                        </ul>
+                                                                </section>
+                                                
+                                                </div>
+                                                
+                                                
+                                                <div class="3u">
+                                                
+                                                        <!-- Contact -->
+                                                                <section class="widget-contact last">
+                                                                        
+                                                                        <ul>
+                                                                        <li><a href="#" class="facebook">Facebook</a></li>
+                                                                        <li><a href="#" class="twitter">Twitter</a></li>
+                                                                        <li><a href="#" class="linkedin">Linkedin</a></li>
+                                                                                
+                                                                        </ul>
+
+                                                                </section>
+                                                
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="12u">
+                                                        <div id="copyright">
+Kunal Infotech Pvt Ltd - Ruby on Rails India © 2012-2013
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </footer>
+                        </div>
+
+
+<script type="text/javascript" src="javascript/jquery_002.js"></script>
+<script type="text/javascript" src="javascript/mktg.js"></script>
+<!-- <span><img src="/assets/admin/twitter_icon.png" alt=""></span> -->
+
+        </body>
 </html>
