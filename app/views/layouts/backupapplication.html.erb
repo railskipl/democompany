@@ -170,3 +170,33 @@ Kunal Infotech Pvt Ltd - Ruby on Rails India © 2012-2013
   </body>
 </html>
 >>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
+<div class="field_div">
+<%= form_for :contact, :url=>{:controller=>'contacts',:action=>'create'} do |f| %>
+      
+      
+       <%= f.label :Name %><br />             
+      <%= f.text_field :name,:class =>"tf"%>
+
+      
+      
+ 
+       <%= f.label :Email %><br />                
+      <%= f.text_field :email,:class =>"tf"%>
+  
+      
+
+      <%= f.label :Subject %><br />               
+      <%= f.text_field :subject,:class =>"tf"%>
+  
+      
+     
+      <%= f.label :Message %><br />                 
+      <%= f.text_area :message,:cols => "30", :rows => "5",:class =>"tf"%>
+     
+
+   
+       <%= submit_tag 'Submit', :class=>"submit_btn" %>
+      
+      
+      <% end %>
+   </div>
