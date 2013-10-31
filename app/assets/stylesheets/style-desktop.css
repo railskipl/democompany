@@ -1,331 +1,313 @@
 /*
-	Verti 2.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+        Verti 2.0 by HTML5 UP
+        html5up.net | @n33co
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 /*********************************************************************************/
-/* Basic                                                                         */
+/* Basic */
 /*********************************************************************************/
 
-	body
-	{
-		min-width: 1200px;
-		line-height: 2.25em;
-		min-height: 100%;
-	}
+        body
+        {
+                min-width: 1200px;
+                line-height: 2.25em;
+                min-height: 100%;
+        }
 
-	h1, h2, h3, h4, h5, h6
-	{
-		color: #fff;
-		font-weight: 800;
-	}
+        h1, h2, h3, h4, h5, h6
+        {
+                color: #fff;
+                font-weight: 800;
+        }
 
-	h2
-	{
-		font-size: 2.25em;
-		margin: 0 0 1.1em 0;
-		line-height: 1em;
-	}
-	
-	h3
-	{
-		font-size: 1.35em;
-		margin: 0 0 2.25em 0;
-	}
+        h2
+        {
+                font-size: 2.25em;
+                margin: 0 0 1.1em 0;
+                line-height: 1em;
+        }
+        
+        h3
+        {
+                font-size: 1.35em;
+                margin: 0 0 2.25em 0;
+        }
 
-	.pad-right
-	{
-		margin-right: 1.5em;
-	}
+        .pad-right
+        {
+                margin-right: 1.5em;
+        }
 
-	.pad-left
-	{
-		margin-left: 1.5em;
-	}
-	
-	body.left-sidebar,
-	body.homepage
-	{
-	}
+        .pad-left
+        {
+                margin-left: 1.5em;
+        }
+        
+        body.left-sidebar,
+        body.homepage
+        {
+        }
 
-		body.left-sidebar #content,
-		body.homepage #content
-		{
-			padding-left: 1.75em;
-		}
+                body.left-sidebar #content,
+                body.homepage #content
+                {
+                        padding-left: 1.75em;
+                }
 
-	body.right-sidebar
-	{
-	}
+        body.right-sidebar
+        {
+        }
 
-		body.right-sidebar #content
-		{
-			padding-right: 1.75em;
-		}
-	
-	.button
-	{
-		font-size: 1.35em;
-		padding: 0.8em 1.5em 0.8em 1.5em;
-	}
+                body.right-sidebar #content
+                {
+                        padding-right: 1.75em;
+                }
+        
+        .button
+        {
+                font-size: 1.35em;
+                padding: 0.8em 1.5em 0.8em 1.5em;
+        }
 
-		.button-big
-		{
-			font-size: 2.25em;
-			padding: 0.8em 0.9em 0.8em 0.9em;
-		}
-	
-	.box
-	{
-		padding: 2em;
-	}
-		
-	.box-feature
-	{
-		padding: 0;
-	}
-		
-		.box-feature .inner
-		{
-			padding: 4em 2em 3em 2em;
-		}
-		
-		.box-feature h2
-		{
-			font-size: 1.35em;
-		}
+                .button-big
+                {
+                        font-size: 2.25em;
+                        padding: 0.8em 0.9em 0.8em 0.9em;
+                }
+        
+        .box
+        {
+                padding: 2em;
+        }
+                
+        .box-feature
+        {
+                padding: 0;
+        }
+                
+                .box-feature .inner
+                {
+                        padding: 4em 2em 3em 2em;
+                }
+                
+                .box-feature h2
+                {
+                        font-size: 1.35em;
+                }
 
-		.box-feature p
-		{
-			margin: 0;
-		}
+                .box-feature p
+                {
+                        margin: 0;
+                }
 
-		.box-feature .image
-		{
-			position: relative;
-			margin: 0;
-		}
+                .box-feature .image
+                {
+                        position: relative;
+                        margin: 0;
+                }
 
-			.box-feature .image img
-			{
-				border-bottom-left-radius: 0;
-				border-bottom-right-radius: 0;
-			}
-
-/*********************************************************************************/
-/* Widgets                                                                       */
-/*********************************************************************************/
-
-	.widget-thumbnails
-	{
-	}
-
-		.widget-thumbnails .grid
-		{
-			margin: 0 0 3em 0;
-		}
-
-		.widget-thumbnails .image
-		{
-			margin: 0;
-		}
-	
-/*********************************************************************************/
-/* Wrappers                                                                      */
-/*********************************************************************************/
-
-	#header-wrapper
-	{
-		padding:0 0; background:url(/assets/admin/alfa50.png); border-bottom:5px solid #333333
-	}
-	
-	#features-wrapper
-	{
-		padding: 3em 0 3em 0;
-	}
-	
-	#main-wrapper
-	{
-		padding: 5em 0 5em 0;
-	}
-	
-	#footer-wrapper
-	{
-		padding:0 0 0 0; background:url(/assets/admin/black_alfa_70.png);
-	}
+                        .box-feature .image img
+                        {
+                                border-bottom-left-radius: 0;
+                                border-bottom-right-radius: 0;
+                        }
 
 /*********************************************************************************/
-/* Logo                                                                          */
+/* Widgets */
 /*********************************************************************************/
 
-	#logo
-	{ margin:10px 0
-	}
+        .widget-thumbnails
+        {
+        }
 
-		#logo h1
-		{
-			float: left;
-			margin: 0 0.35em 0 0;
-			padding:0;
-			font-size: 3.25em;
-			letter-spacing: 0.05em;
-		}
+                .widget-thumbnails .grid
+                {
+                        margin: 0 0 3em 0;
+                }
 
-		#logo span
-		{
-			padding-top:21px; 
-			float:left
-		}
-
+                .widget-thumbnails .image
+                {
+                        margin: 0;
+                }
+        
 /*********************************************************************************/
-/* Nav                                                                           */
+/* Wrappers */
 /*********************************************************************************/
 
-	#nav
-	{
-		position: absolute;
-		right: 0;
-		top: 0;
-		font-size:12px;
-	}
-	
-		#nav ul
-		{
-		}
-			
-			#nav ul li
-			{
-				float: left;
-				line-height: 30px;
-				padding-left:10px;
-			}
-
-				#nav ul li a
-				{
-					font-weight:normal;
-					letter-spacing: normal;
-					color: #696969;
-					text-decoration: none;
-					padding:5px 5px;
-
-				}
-
-			#nav ul li:hover
-			{
-			}
-
-				#nav ul li:hover a
-				{
-					color: #000; border-bottom:2px solid #e6a114
-				}
-
-			#nav ul li.current_page_item
-			{
-			}
-
-				#nav ul li.current_page_item a
-				{
-					background: #444;
-					color: #fff;
-				}
+        #header-wrapper
+        {
+                padding:0 0; background:url(/assets/admin/alfa50.png); border-bottom:5px solid #333333
+        }
+        
+        #features-wrapper
+        {
+                padding: 3em 0 3em 0;
+        }
+        
+        #main-wrapper
+        {
+                padding: 5em 0 5em 0;
+        }
+        
+        #footer-wrapper
+        {
+                padding:0 0 0 0; background:url(/assets/admin/black_alfa_70.png); position:fixed; bottom:0; left:0; right:0
+        }
 
 /*********************************************************************************/
-/* Banner                                                                        */
+/* Logo */
 /*********************************************************************************/
 
-	#banner
-	{
-		padding: 6.25% 6.25% 3.5% 6.25%;
-	}
+        #logo
+        { margin:5px 0
+        }
 
-		#banner h2
-		{
-			font-size: 3.5em;
-			margin: 0.1em 0 0.35em 0;
-		}
+                #logo h1
+                {
+                        float: left;
+                        margin: 0 0.35em 0 0;
+                        padding:0;
+                        font-size: 3.25em;
+                        letter-spacing: 0.05em;
+                }
 
-		#banner p
-		{
-			font-size: 2.75em;
-			line-height: 1.35em;
-			margin: 0;
-		}
-		
-		#banner .button
-		{
-			width: 100%;
-			margin-bottom: 0.5em;
-		}
-
-		#banner .button-alt
-		{
-			margin-bottom: 0;
-		}
-		
-		#banner ul
-		{
-			margin-left: 2em;
-		}
+                #logo span
+                {
+                        padding-top:21px;
+                        float:left
+                }
 
 /*********************************************************************************/
-/* Content                                                                       */
+/* Nav */
 /*********************************************************************************/
 
-	#content
-	{
-	}
+        #nav
+        {
+                position: absolute;
+                right: 0;
+                top: 0;
+                font-size:12px;
+        }
+        
+                #nav ul
+                {
+                }
+                        
+                        #nav ul li
+                        {
+                                float: left;
+                                line-height: 30px;
+                                padding-left:10px;
+                        }
 
-		#content h3
-		{
-<<<<<<< HEAD
-			margin-top: 2.25em;
-=======
-<<<<<<< HEAD
-			margin-top: 3.25em;
-=======
-			margin-top: 2.25em;
->>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
->>>>>>> 02a2d8602a9ea41f6acc5ba1dc06a20ae0a12c88
-		}
+                                #nav ul li a
+                                {
+                                        font-weight:normal;
+                                        letter-spacing: normal;
+                                        color: #696969;
+                                        text-decoration: none;
+                                        padding:5px 5px;
+
+                                }
+
+                        #nav ul li:hover
+                        {
+                        }
+
+                                #nav ul li:hover a
+                                {
+                                        color: #000; border-bottom:2px solid #e6a114
+                                }
+
+                        #nav ul li.current_page_item
+                        {
+                        }
+
+                                #nav ul li.current_page_item a
+                                {
+                                        background: #444;
+                                        color: #fff;
+                                }
 
 /*********************************************************************************/
-/* Footer                                                                        */
+/* Banner */
 /*********************************************************************************/
 
-	#footer
-	{ padding:0
-	}
-	
-		#footer h2
-		{
-			font-size: 1.35em;
-		}
+        #banner
+        {
+                padding: 6.25% 6.25% 3.5% 6.25%;
+        }
 
-	#copyright
-	{
-<<<<<<< HEAD
-		padding:0; font-size:12px;
-=======
-<<<<<<< HEAD
-		padding:0; font-size:14px;
-		padding-top: 9px;
-		padding-bottom: 9px;
-=======
-		padding:0; font-size:12px;
->>>>>>> b42411d048f29b486b98efa075f3990d92b6acbb
->>>>>>> 02a2d8602a9ea41f6acc5ba1dc06a20ae0a12c88
-		text-align: center; border-top:1px solid #333333
-	}
-	
-	
-	
-	
+                #banner h2
+                {
+                        font-size: 3.5em;
+                        margin: 0.1em 0 0.35em 0;
+                }
+
+                #banner p
+                {
+                        font-size: 2.75em;
+                        line-height: 1.35em;
+                        margin: 0;
+                }
+                
+                #banner .button
+                {
+                        width: 100%;
+                        margin-bottom: 0.5em;
+                }
+
+                #banner .button-alt
+                {
+                        margin-bottom: 0;
+                }
+                
+                #banner ul
+                {
+                        margin-left: 2em;
+                }
+
 /*********************************************************************************/
-/* navigation                                                                       */
-/*********************************************************************************/	
-	
-	
+/* Content */
+/*********************************************************************************/
+
+        #content
+        {
+        }
+
+                #content h3
+                {
+                        margin-top: 2.25em;
+                }
+
+/*********************************************************************************/
+/* Footer */
+/*********************************************************************************/
+
+        #footer
+        { padding:0
+        }
+        
+                #footer h2
+                {
+                        font-size: 1.35em;
+                }
+
+        #copyright
+        {
+                padding:0; font-size:12px;
+                text-align: center; border-top:1px solid #333333
+        }
+        
+        
+        
+        
+/*********************************************************************************/
+/* navigation */
+/*********************************************************************************/        
+        
+        
 .nav-primary {
     background: url("/assets/admin/navigation-right.jpg") repeat-x scroll right top transparent;
     display: inline-block;
@@ -346,10 +328,10 @@
     background: none repeat scroll 0 0 transparent;
 }
 .nav-primary li a {
-    color: #999999;
+    color: #ccc;
     display: block;
     font-family: myriad-pro-n4,myriad-pro,Myriad Pro,Arial,Helvetica,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     line-height: normal;
     padding: 5px 20px;
@@ -369,5 +351,36 @@
 
 .search_wrap{ width:auto; float:right; position:absolute; right:0; top:40px}
 
-.stf{ border:1px solid #333333; padding:7px 10px 6px 10px; background:#fff; color:#333; width:200px}
-.sbtn{ width:38px; height:31px; cursor:pointer; background:url(/assets/admin/search.jpg) no-repeat; border:0}
+.stf{ border:1px solid #333333; padding:0 10px; height:31px; line-height:18px; background:#fff; color:#333; width:200px; float:left}
+.sbtn{ width:38px; height:31px; cursor:pointer; background:url(/assets/admin/search.jpg) no-repeat; border:0; border:1px solid #333333; float:left}
+
+
+
+#accordion { width:100%; margin:10px 0; padding:10px; background:url(/assets/admin/black_alfa_70.png) }
+#accordion p span { cursor:pointer; color:#CCCCCC; display:block }
+
+.news-heading{
+        color:#fff;
+        font: bold 12px Arial;
+        margin-bottom:10px;
+        background:#2092c8;
+        padding:5px 10px;
+         -moz-border-radius: 5px;
+        }
+
+.news-title{
+        color:#000;
+        font: bold 12px Arial;
+        margin:0 0 0px 0;
+        padding:10px 10px;
+        border-top:1px solid #333333; border-bottom:1px solid #000;
+        }
+        
+        
+        .news-title:hover{ background:#000 url(/assets/admin/plus.png) no-repeat 660px 14px
+        }
+.news_text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff;
+        line-height:18px; border:1px solid #000; padding:10px; border-top:none; overflow:hidden; text-align:justify; background:#333
+        }
+        
+        .testimonial_img{ float:left; margin:0 10px 10px 0; width:75px; height:75px; border:1px solid #d7e7f0}        

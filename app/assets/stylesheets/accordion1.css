@@ -1,11 +1,11 @@
 /* Icon font for arrow icons */
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon_arrows/icomoon.eot');
-	src:url('../fonts/icomoon_arrows/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon_arrows/icomoon.woff') format('woff'),
-		url('../fonts/icomoon_arrows/icomoon.ttf') format('truetype'),
-		url('../fonts/icomoon_arrows/icomoon.svg#icomoon') format('svg');
+	src:url('/assets/icomoon_arrows/icomoon.eot');
+	src:url('/assets/icomoon_arrows/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('/assets/icomoon_arrows/icomoon.woff') format('woff'),
+		url('/assets/icomoon_arrows/icomoon.ttf') format('truetype'),
+		url('/assets/icomoon_arrows/icomoon.svg#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 } /* Iconfont by Icomoon http://icomoon.io/ */
@@ -15,7 +15,7 @@
 .cbp-ntaccordion {
 	list-style: none;
 	margin: 10px 0;
-	padding:0 10px; background:url(../images/black_alfa_70.png)
+	padding:0 10px; background:url(/assets/admin/black_alfa_70.png)
 }
 
 .cbp-ntsubaccordion {

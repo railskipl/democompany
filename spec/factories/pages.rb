@@ -2,8 +2,5 @@
 
 FactoryGirl.define do
   factory :page do
-    title "MyString"
-    body "MyText"
-    keyword "MyString"
   end
 end

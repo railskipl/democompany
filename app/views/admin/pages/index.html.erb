@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-<%= link_to  "Add Pages", new_admin_page_path %>
+<%= link_to "Add Pages", new_admin_page_path %>
 <% @pages.each do |page| %>
   <h3><%= page.title.html_safe %></h3>
-  <p><%=page.body.html_safe %></p>
+  
    <%= link_to "Edit", edit_admin_page_path(page) %>
     <%= link_to "Delete", admin_page_path(page), method: :delete, data: {confirm: "You sure?"} %>
-=======
-<%= link_to "New Page", new_admin_page_path %>
-<% @pages.each do |page| %>
-  <h3><%= page.title.html_safe %></h3>
-  <p><%=page.body.html_safe %></p>
-  <%= link_to "Edit Page", edit_admin_page_path(page) %>
-  <%= link_to "Delete", admin_page_path(page), method: :delete, data: {confirm: "You sure?"} %>
->>>>>>> 02a2d8602a9ea41f6acc5ba1dc06a20ae0a12c88
-  <% if page != @pages.last %>
-  <hr />
+    <% if page != @pages.last %>
+
   <% end %>
 <% end %>
 
