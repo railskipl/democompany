@@ -29,14 +29,19 @@ src: url('MyriadPro-Regular.otf'),
 }
 
 .black_wrap{
+<<<<<<< HEAD
 	display: block; position: absolute; top: 0px; left: 0px; z-index: 4; opacity: 1; width:auto; height: 280px; padding:10px; background: 		url(../images/bg-alpha50.png)
+=======
+
+	display: block; position: absolute; top: 0px; left: 0px; z-index: 4; opacity: 1; width:auto; height: 280px; padding:10px; background: url(/assets/admin/bg-alpha50.png)
 	}
 
-.btn{ padding:0px 10px; margin:10px 0 0 0; float:left; background:url(../images/btnbg.jpg) repeat-x #e98014; color:#FFFFFF !important; font-weight:bold; border:1px solid #d96f02; font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:12px; text-shadow:none; line-height:30px
+
+.btn{ padding:0px 10px; margin:10px 0 0 0; float:left; background:url(../assets/admin/btnbg.jpg) repeat-x #e98014; color:#FFFFFF !important; font-weight:bold; border:1px solid #d96f02; font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:12px; text-shadow:none; line-height:30px
 	}
 	
 	
-.submit_btn{ padding:5px 10px; float:left; background:url(../images/btnbg.jpg) repeat-x #e98014; color:#FFFFFF !important; font-weight:bold; border:1px solid #d96f02;text-decoration:none;line-height:30px; border-radius:3px; cursor:pointer
+.submit_btn{ padding:5px 10px; float:left; background:url(../assets/admin/btnbg.jpg) repeat-x #e98014; color:#FFFFFF !important; font-weight:bold; border:1px solid #d96f02;text-decoration:none;line-height:30px; border-radius:3px; cursor:pointer
 	}
 	
 	.submit_btn:hover{ background:orange
@@ -45,14 +50,18 @@ src: url('MyriadPro-Regular.otf'),
 .btn:hover{ color:#000000 !important
 	}
 
-.rm{ width:15px; height:15px; padding:0 20px 0 0; position:relative; top:3px; float:left
+.rm{ width:15px; height:15px; padding:0 5px 0 0; position:relative; top:3px
 	}
 
 .spotlight {
 	width:50%;
 	margin:100px auto;
 	clear:both;
-	position:relative; font-family:"MyriadPro"; background:url(../images/black_alfa_70.png); float:left
+
+	position:relative; font-family:"MyriadPro"; background:url(/assets/admin/black_alfa_70.png); float:left
+
+	position:relative; font-family:"MyriadPro"; background:url(/assets/admin/black_alfa_70.png); float:left
+
 	}
 	
 .spotlight ul, .spotlight li {
@@ -79,7 +88,11 @@ margin-bottom:0px;
 	letter-spacing:-1px;
 	font-weight:bold;
 	padding:0;
-	background:url(../images/bg-alpha40-grey.png) repeat;
+
+	background:url(/assets/admin/bg-alpha40-grey.png) repeat;
+
+	background:url(../assets/admin/bg-alpha40-grey.png) repeat;
+
 	line-height:normal;
 	margin:0 0 5px;
 	}
@@ -95,7 +108,198 @@ margin-bottom:0px;
 	margin:6px 0 2px;
 	text-shadow:0 1px 1px #000;
 	padding:10px;
+
+	background:url(/assets/admin/bg-alpha60-grey.png) repeat;
+
+	background:url(/assets/admin/bg-alpha60-grey.png) repeat;
+
+	line-height:25px;
+	margin:0px;
+	}
+	
+.spotlight .common-pager-slider {
+	z-index:999;
+	}
+	
+.spotlight button {
+	width: 16px;
+	height: 20px;
+	background:none;
+	display:inline-block;
+	border:none;
+	cursor:pointer;
+	opacity:0.1;
+	outline:none;
+	}
+	
+.spotlight button:focus {
+	outline:none;
+	}
+	
+.spotlight button span {
+	display:none;
+>>>>>>> 56d37eaaa702f98ddd32f4c932af631c6db8673c
+	}
+	
+.spotlight .common-pager-slider, .spotlight .spotlight-pagination {
+	position: absolute; bottom:20px; right:20px
+	}
+	
+.spotlight .spotlight-pagination{
+z-index:9999;}
+
+.spotlight .spotlight-pagination a {
+
+	background: url(/assets/admin/sprite-careers-home-pager.png) no-repeat left -17px;
+
+	background: url(../assets/admin/sprite-careers-home-pager.png) no-repeat left -17px;
+
+	width: 15px;
+	height: 15px;
+	display:block;
+	text-indent:-999em;
+	outline:none;
+	float:left;
+	margin:0 0 0 10px;}
+	
+.spotlight-pagination a.activeSlide {
+	background-position: left top;
+	}
+	
+.spotlight span.txt, .inner .lead-story p {
+	color:#fff;
+	display:inline-block;
+	font-size:18px;
+	padding:10px .0px;
+	font-weight:normal;
+	line-height:normal;
+	}
+	
+<<<<<<< HEAD
+.submit_btn{ padding:5px 10px; float:left; background:url(../images/btnbg.jpg) repeat-x #e98014; color:#FFFFFF !important; font-weight:bold; border:1px solid #d96f02;text-decoration:none;line-height:30px; border-radius:3px; cursor:pointer
+=======
+.inner .lead-story p {
+	margin-bottom:5px;
+	}
+	
+.spotlight .button-wrap-outer {
+	margin:5px 0 0 0;
+	}
+	
+.spotlight .button-wrap {
+	clear:both;
+
+
+
+@font-face
+{
+font-family: MyriadPro;
+src: url('MyriadPro-Regular.otf'),
+     url('MyriadPro-Regular.ttf'); /* IE9 */
+	 } 
+
+
+.bg-slide-wrapper {
+	position:fixed;
+	left:0px;
+	top:0px;	
+	}
+	
+.bg-slide-wrapper, .bg-slide-wrapper ul, .bg-slide-wrapper li {
+	width:100%!important;
+	height:100%!important;
+	}
+	
+.bg-slide-wrapper img {
+	width:100%!important;
+	height:auto!important;
+	}
+	
+.bg-slide-wrapper {
+	z-index:-999!important;
+}
+
+.black_wrap{
+	display: block; position: absolute; top: 0px; left: 0px; z-index: 4; opacity: 1; width:auto; height: 280px; padding:10px; background: 		url(/assets/admin/bg-alpha50.png)
+	}
+
+.btn{ padding:0px 10px; margin:10px 0 0 0; float:left; background:url(/assets/admin/btnbg.jpg) repeat-x #e98014; color:#FFFFFF !important; font-weight:bold; border:1px solid #d96f02; font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:12px; text-shadow:none; line-height:30px
+	}
+	
+	
+.submit_btn{ padding:5px 10px; float:left; background:url(/assets/admin/btnbg.jpg) repeat-x #e98014; color:#FFFFFF !important; font-weight:bold; border:1px solid #d96f02;text-decoration:none;line-height:30px; border-radius:3px; cursor:pointer
+>>>>>>> 56d37eaaa702f98ddd32f4c932af631c6db8673c
+	}
+	
+	.submit_btn:hover{ background:orange
+	}
+
+.btn:hover{ color:#000000 !important
+	}
+
+.rm{ width:15px; height:15px; padding:0 20px 0 0; position:relative; top:3px; float:left
+	}
+
+.spotlight {
+	width:50%;
+	margin:100px auto;
+	clear:both;
+<<<<<<< HEAD
+	position:relative; font-family:"MyriadPro"; background:url(../images/black_alfa_70.png); float:left
+=======
+	position:relative; font-family:"MyriadPro"; background:url(/assets/admin/black_alfa_70.png); float:left
+>>>>>>> 56d37eaaa702f98ddd32f4c932af631c6db8673c
+	}
+	
+.spotlight ul, .spotlight li {
+	width:100%!important;
+	height:240px!important;
+	}
+	
+.spotlight .panel:hover h1 strong, 
+.spotlight .panel:hover h1 span, 
+.spotlight .pane:hover span.txt, 
+.inner .lead-story:hover p, 
+.inner .lead-story:hover h2 {
+	
+}
+.spotlight .panel h1{
+margin-bottom:0px;
+}
+.spotlight .panel h1 strong {
+	display:inline-block;
+	font-size:40px;
+	color:#fff;
+	text-shadow:0 1px 1px #000;
+	font-family:'MyriadPro';
+	letter-spacing:-1px;
+	font-weight:bold;
+	padding:0;
+<<<<<<< HEAD
+	background:url(../images/bg-alpha40-grey.png) repeat;
+=======
+	background:url(/assets/admin/bg-alpha40-grey.png) repeat;
+>>>>>>> 56d37eaaa702f98ddd32f4c932af631c6db8673c
+	line-height:normal;
+	margin:0 0 5px;
+	}
+
+.spotlight .panel h1 strong {
+	font-weight:normal;
+	}
+
+.spotlight .panel h1 span {
+	display:inline-block;
+	font-size:28px;
+	color:#fff;
+	margin:6px 0 2px;
+	text-shadow:0 1px 1px #000;
+	padding:10px;
+<<<<<<< HEAD
 	background:url(../images/bg-alpha60-grey.png) repeat;
+=======
+	background:url(/assets/admin/bg-alpha60-grey.png) repeat;
+>>>>>>> 56d37eaaa702f98ddd32f4c932af631c6db8673c
 	line-height:25px;
 	margin:0px;
 	}
@@ -131,7 +335,11 @@ margin-bottom:0px;
 z-index:9999;}
 
 .spotlight .spotlight-pagination a {
+<<<<<<< HEAD
 	background: url(../images/sprite-careers-home-pager.png) no-repeat left -17px;
+=======
+	background: url(/assets/admin/sprite-careers-home-pager.png) no-repeat left -17px;
+>>>>>>> 56d37eaaa702f98ddd32f4c932af631c6db8673c
 	width: 15px;
 	height: 15px;
 	display:block;
@@ -163,4 +371,5 @@ z-index:9999;}
 	
 .spotlight .button-wrap {
 	clear:both;
+
 	}

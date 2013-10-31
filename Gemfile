@@ -5,7 +5,15 @@ gem 'sqlite3'
 gem 'unicorn'
 gem "ckeditor"
 gem "paperclip"
+<<<<<<< HEAD
 gem 'sitemap_generator'
+=======
+gem "mail"
+gem "therubyracer"
+gem "execjs"
+gem "pry"
+
+>>>>>>> 56d37eaaa702f98ddd32f4c932af631c6db8673c
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'

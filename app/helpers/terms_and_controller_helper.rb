@@ -1,0 +1,2 @@
+module TermsAndControllerHelper
+end
